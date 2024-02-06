@@ -3,6 +3,6 @@
     public class User
     {
         public int Id { get; set; }
-        public ICollection<UserRole>? Users { get; set; }
+        public ICollection<UserRole>? Roles { get; set; }
     }
 }
