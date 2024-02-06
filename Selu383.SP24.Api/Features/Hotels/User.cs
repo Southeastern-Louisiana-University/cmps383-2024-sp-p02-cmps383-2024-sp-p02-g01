@@ -1,8 +1,10 @@
-﻿namespace Selu383.SP24.Api.Features.Hotels
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace Selu383.SP24.Api.Features.Hotels
 {
-    public class User
+    public class User : IdentityUser<int>
     {
-        public int Id { get; set; }
+        //public override int Id { get; set; }
         public ICollection<UserRole>? Roles { get; set; }
     }
 }
