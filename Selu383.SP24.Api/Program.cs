@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Selu383.SP24.Api.Data;
 using Selu383.SP24.Api.Features.Hotels;
@@ -38,6 +39,11 @@ using (var scope = app.Services.CreateScope())
 
         await db.SaveChangesAsync();
     }
+
+    //Seeded data must go in here,, within the "using"
+    //galkadi has to be an admin for this part. that is not in the photo
+    //var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
+    //var users:DbSet<User> = db.Set<User>();
 }
 
 // Configure the HTTP request pipeline.
