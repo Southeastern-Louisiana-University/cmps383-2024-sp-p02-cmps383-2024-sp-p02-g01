@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "StickerSmash",
-    "slug": "StickerSmash",
+    "name": "Selu383-SP24-Mobile-p02-g01",
+    "slug": "Selu383-SP24-Mobile-p02-g01",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,7 +21,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.selu383.sp24.p02.g01"
     },
     "web": {
       "favicon": "./assets/favicon.png"
